@@ -1,0 +1,41 @@
+{
+  "name": "exercise3",
+  "description": "A react app which shows list of countries using GraphQL.",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "webpack serve --mode development --env development",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.20",
+    "@types/node": "^15.12.2",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "cross-fetch": "^3.1.4",
+    "graphql": "^15.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "jest": "^27.0.4",
+    "react-test-renderer": "^17.0.2",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.2.3",
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "jest": {
+    "verbose": true
+  }
+}

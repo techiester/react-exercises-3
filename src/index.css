@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+}
+#root {
+  max-width: 45%;
+  margin: 45vh auto 0 auto;
+}
+.App {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.loading {
+  text-align: center;
+  margin: 1em;
+  color: #5E19F5;
+}
+.input-control,
+.input-control:focus {
+  padding: .5em;
+  border: 2px solid;
+  border-radius: .5em;
+  font-size: 1.25em;
+  outline: none;
+}
+.input-control:focus {
+  border-color: #5E19F5;
+}
+.details {
+  margin-top: 2em;
+}
+.languages:not(:last-child)::after {
+  content: ",";
+  padding-right: .25em;
+}
+
+.continent {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+.countries {
+  display: flex;
+  align-items: center;
+  height: 2em;
+}
+.country-flag {
+  width: 1.5em;
+  height: 1.5em;
+  padding-right: .5em;
+}
